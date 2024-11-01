@@ -1,0 +1,512 @@
+# Copyright (C) 2024 WPClever
+# This file is distributed under the same license as the WPC Variations Table for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPC Variations Table for WooCommerce 3.7.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpc-variations-table\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-24T09:55:25+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: wpc-variations-table\n"
+
+#. Plugin Name of the plugin
+msgid "WPC Variations Table for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wpclever.net/"
+msgstr ""
+
+#. Description of the plugin
+msgid "WPC Variations Table will replace dropdown selects with a beautiful table."
+msgstr ""
+
+#. Author of the plugin
+msgid "WPClever"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpclever.net"
+msgstr ""
+
+#: wpc-variations-table.php:68
+msgid "No data available in table"
+msgstr ""
+
+#: wpc-variations-table.php:69
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr ""
+
+#: wpc-variations-table.php:70
+msgid "Showing 0 to 0 of 0 entries"
+msgstr ""
+
+#: wpc-variations-table.php:71
+msgid "(filtered from _MAX_ total entries)"
+msgstr ""
+
+#: wpc-variations-table.php:73
+msgid ","
+msgstr ""
+
+#: wpc-variations-table.php:74
+msgid "Show _MENU_ entries"
+msgstr ""
+
+#: wpc-variations-table.php:75
+msgid "Loading..."
+msgstr ""
+
+#: wpc-variations-table.php:76
+msgid "Processing..."
+msgstr ""
+
+#: wpc-variations-table.php:77
+msgid "Search:"
+msgstr ""
+
+#: wpc-variations-table.php:78
+msgid "No matching records found"
+msgstr ""
+
+#: wpc-variations-table.php:80
+msgid "First"
+msgstr ""
+
+#: wpc-variations-table.php:81
+msgid "Last"
+msgstr ""
+
+#: wpc-variations-table.php:82
+msgid "Next"
+msgstr ""
+
+#: wpc-variations-table.php:83
+msgid "Previous"
+msgstr ""
+
+#: wpc-variations-table.php:86
+msgid ": activate to sort column ascending"
+msgstr ""
+
+#: wpc-variations-table.php:87
+msgid ": activate to sort column descending"
+msgstr ""
+
+#: wpc-variations-table.php:205
+#: wpc-variations-table.php:216
+#: wpc-variations-table.php:855
+msgid "WPC Variations Table"
+msgstr ""
+
+#: wpc-variations-table.php:205
+#: wpc-variations-table.php:783
+msgid "Variations Table"
+msgstr ""
+
+#: wpc-variations-table.php:216
+msgid "Premium"
+msgstr ""
+
+#. translators: stars
+#: wpc-variations-table.php:219
+msgid "Thank you for using our plugin! If you are satisfied, please reward it a full five-star %s rating."
+msgstr ""
+
+#: wpc-variations-table.php:221
+msgid "Reviews"
+msgstr ""
+
+#: wpc-variations-table.php:222
+msgid "Changelog"
+msgstr ""
+
+#: wpc-variations-table.php:223
+msgid "Discussion"
+msgstr ""
+
+#: wpc-variations-table.php:228
+msgid "Settings updated."
+msgstr ""
+
+#: wpc-variations-table.php:234
+#: wpc-variations-table.php:721
+msgid "Settings"
+msgstr ""
+
+#: wpc-variations-table.php:237
+msgid "Localization"
+msgstr ""
+
+#: wpc-variations-table.php:240
+#: wpc-variations-table.php:722
+msgid "Premium Version"
+msgstr ""
+
+#: wpc-variations-table.php:243
+msgid "Essential Kit"
+msgstr ""
+
+#: wpc-variations-table.php:268
+#: wpc-variations-table.php:817
+msgid "Active"
+msgstr ""
+
+#: wpc-variations-table.php:272
+#: wpc-variations-table.php:313
+#: wpc-variations-table.php:333
+#: wpc-variations-table.php:344
+#: wpc-variations-table.php:359
+#: wpc-variations-table.php:370
+#: wpc-variations-table.php:381
+#: wpc-variations-table.php:392
+#: wpc-variations-table.php:403
+#: wpc-variations-table.php:826
+msgid "No"
+msgstr ""
+
+#: wpc-variations-table.php:273
+#: wpc-variations-table.php:314
+#: wpc-variations-table.php:334
+#: wpc-variations-table.php:343
+#: wpc-variations-table.php:369
+#: wpc-variations-table.php:380
+#: wpc-variations-table.php:391
+#: wpc-variations-table.php:402
+msgid "Yes"
+msgstr ""
+
+#: wpc-variations-table.php:275
+msgid "This is the default status, you can set status for individual product in the its settings."
+msgstr ""
+
+#: wpc-variations-table.php:280
+msgid "Position"
+msgstr ""
+
+#: wpc-variations-table.php:284
+msgid "Replace the add to cart form"
+msgstr ""
+
+#: wpc-variations-table.php:285
+msgid "Under the title"
+msgstr ""
+
+#: wpc-variations-table.php:286
+msgid "Under the price"
+msgstr ""
+
+#: wpc-variations-table.php:287
+msgid "Under the excerpt"
+msgstr ""
+
+#: wpc-variations-table.php:288
+msgid "Under the meta"
+msgstr ""
+
+#: wpc-variations-table.php:289
+msgid "Under the sharing"
+msgstr ""
+
+#: wpc-variations-table.php:290
+msgid "None (hide it)"
+msgstr ""
+
+#: wpc-variations-table.php:292
+msgid "Choose the position to show the variations table on single product page. You also can use shortcode [wpcvt] to place it where you want."
+msgstr ""
+
+#: wpc-variations-table.php:297
+msgid "Layout"
+msgstr ""
+
+#: wpc-variations-table.php:301
+msgid "Simple"
+msgstr ""
+
+#: wpc-variations-table.php:302
+#: wpc-variations-table.php:487
+msgid "DataTables"
+msgstr ""
+
+#: wpc-variations-table.php:304
+msgid "DataTables supports pagination and filter results by text search. Read more about it here: https://datatables.net/reference/option/language"
+msgstr ""
+
+#: wpc-variations-table.php:309
+msgid "Hide unpurchasable variation"
+msgstr ""
+
+#: wpc-variations-table.php:319
+msgid "Variation name"
+msgstr ""
+
+#: wpc-variations-table.php:322
+msgid "Formatted without attribute label (e.g Green, M)"
+msgstr ""
+
+#: wpc-variations-table.php:323
+msgid "Formatted with attribute label (e.g Color: Green, Size: M)"
+msgstr ""
+
+#: wpc-variations-table.php:329
+msgid "Include product name"
+msgstr ""
+
+#: wpc-variations-table.php:336
+msgid "Include the product name before variation name."
+msgstr ""
+
+#: wpc-variations-table.php:340
+msgid "Open quick view popup"
+msgstr ""
+
+#: wpc-variations-table.php:353
+msgid "Show add to cart button"
+msgstr ""
+
+#: wpc-variations-table.php:357
+msgid "Yes, for each variation"
+msgstr ""
+
+#: wpc-variations-table.php:358
+msgid "Yes, for all variations"
+msgstr ""
+
+#: wpc-variations-table.php:365
+msgid "Show image"
+msgstr ""
+
+#: wpc-variations-table.php:376
+msgid "Show price"
+msgstr ""
+
+#: wpc-variations-table.php:387
+msgid "Show availability"
+msgstr ""
+
+#: wpc-variations-table.php:398
+msgid "Show description"
+msgstr ""
+
+#: wpc-variations-table.php:409
+msgid "Before text"
+msgstr ""
+
+#: wpc-variations-table.php:415
+msgid "Default text before variations table."
+msgstr ""
+
+#: wpc-variations-table.php:420
+msgid "After text"
+msgstr ""
+
+#: wpc-variations-table.php:426
+msgid "Default text after variations table."
+msgstr ""
+
+#: wpc-variations-table.php:440
+msgid "General"
+msgstr ""
+
+#: wpc-variations-table.php:442
+msgid "Leave blank to use the default text and its equivalent translation in multiple languages."
+msgstr ""
+
+#: wpc-variations-table.php:447
+msgid "Add all to cart"
+msgstr ""
+
+#. translators: count
+#: wpc-variations-table.php:452
+#: wpc-variations-table.php:1310
+msgid "Add all to cart (%s)"
+msgstr ""
+
+#: wpc-variations-table.php:458
+#: wpc-variations-table.php:462
+#: wpc-variations-table.php:1040
+msgid "Image"
+msgstr ""
+
+#: wpc-variations-table.php:468
+#: wpc-variations-table.php:472
+#: wpc-variations-table.php:1043
+msgid "Name"
+msgstr ""
+
+#: wpc-variations-table.php:478
+#: wpc-variations-table.php:482
+#: wpc-variations-table.php:1044
+msgid "Action"
+msgstr ""
+
+#: wpc-variations-table.php:489
+msgid "Read more about the below strings here https://datatables.net/reference/option/language"
+msgstr ""
+
+#: wpc-variations-table.php:494
+msgid "decimal"
+msgstr ""
+
+#: wpc-variations-table.php:504
+msgid "emptyTable"
+msgstr ""
+
+#: wpc-variations-table.php:514
+msgid "info"
+msgstr ""
+
+#: wpc-variations-table.php:524
+msgid "infoEmpty"
+msgstr ""
+
+#: wpc-variations-table.php:534
+msgid "infoFiltered"
+msgstr ""
+
+#: wpc-variations-table.php:544
+msgid "infoPostFix"
+msgstr ""
+
+#: wpc-variations-table.php:554
+msgid "thousands"
+msgstr ""
+
+#: wpc-variations-table.php:564
+msgid "lengthMenu"
+msgstr ""
+
+#: wpc-variations-table.php:574
+msgid "loadingRecords"
+msgstr ""
+
+#: wpc-variations-table.php:584
+msgid "processing"
+msgstr ""
+
+#: wpc-variations-table.php:594
+msgid "search"
+msgstr ""
+
+#: wpc-variations-table.php:604
+msgid "zeroRecords"
+msgstr ""
+
+#: wpc-variations-table.php:614
+msgid "paginate:first"
+msgstr ""
+
+#: wpc-variations-table.php:624
+msgid "paginate:last"
+msgstr ""
+
+#: wpc-variations-table.php:634
+msgid "paginate:next"
+msgstr ""
+
+#: wpc-variations-table.php:644
+msgid "paginate:previous"
+msgstr ""
+
+#: wpc-variations-table.php:654
+msgid "aria:sortAscending"
+msgstr ""
+
+#: wpc-variations-table.php:664
+msgid "aria:sortDescending"
+msgstr ""
+
+#: wpc-variations-table.php:738
+msgid "Community support"
+msgstr ""
+
+#: wpc-variations-table.php:752
+msgid "Add to Variation"
+msgstr ""
+
+#: wpc-variations-table.php:753
+msgid "Custom Image"
+msgstr ""
+
+#: wpc-variations-table.php:754
+#: wpc-variations-table.php:869
+msgid "Remove"
+msgstr ""
+
+#: wpc-variations-table.php:807
+msgid "Product wasn't returned."
+msgstr ""
+
+#: wpc-variations-table.php:822
+msgid "Default"
+msgstr ""
+
+#: wpc-variations-table.php:823
+msgid "settings"
+msgstr ""
+
+#: wpc-variations-table.php:829
+msgid "Yes (Overwrite)"
+msgstr ""
+
+#: wpc-variations-table.php:859
+msgid "Custom name"
+msgstr ""
+
+#: wpc-variations-table.php:864
+msgid "Custom image"
+msgstr ""
+
+#: wpc-variations-table.php:874
+msgid "Choose Image"
+msgstr ""
+
+#: wpc-variations-table.php:879
+msgid "- OR - Custom image URL"
+msgstr ""
+
+#: wpc-variations-table.php:1496
+msgid "Before variations wrap"
+msgstr ""
+
+#: wpc-variations-table.php:1497
+msgid "After variations wrap"
+msgstr ""
+
+#: wpc-variations-table.php:1498
+msgid "Before variations list"
+msgstr ""
+
+#: wpc-variations-table.php:1499
+msgid "After variations list"
+msgstr ""
+
+#: wpc-variations-table.php:1500
+msgid "Before variation"
+msgstr ""
+
+#: wpc-variations-table.php:1501
+msgid "After variation"
+msgstr ""
+
+#: wpc-variations-table.php:1502
+msgid "Before variation info"
+msgstr ""
+
+#: wpc-variations-table.php:1503
+msgid "After variation info"
+msgstr ""
+
+#: wpc-variations-table.php:1504
+msgid "Before variation actions"
+msgstr ""
+
+#: wpc-variations-table.php:1505
+msgid "After variation actions"
+msgstr ""

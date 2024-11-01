@@ -1,0 +1,146 @@
+/* Hide default variations */
+body.wpcvt-active .variations_form, .wpcvt-variations + .variations_form, .wpcvt-wrap + .variations_form, .wpcvt-hide-variations-form + .variations_form {
+    display: none !important;
+}
+
+.wpcvt-variations {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.wpcvt-variations .wpcvt-variation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.wpcvt-variations .wpcvt-variation:hover {
+    background-color: #f9f9f9;
+}
+
+.wpcvt-variations .wpcvt-variation > div {
+    padding: 10px;
+}
+
+.wpcvt-variations .wpcvt-variation .wpcvt-variation-image {
+    width: 100px;
+    flex: 0 0 100px;
+    position: relative;
+}
+
+.wpcvt-variations .wpcvt-variation .wpcvt-variation-image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.wpcvt-variations .wpcvt-variation .wpcvt-variation-info {
+    flex-grow: 1;
+}
+
+.wpcvt-variations .wpcvt-variation .wpcvt-variation-info .wpcvt-variation-name {
+    font-weight: 700;
+}
+
+.wpcvt-variations .wpcvt-variation .wpcvt-variation-info .wpcvt-variation-name p {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.wpcvt-variations .wpcvt-variation .wpcvt-variation-info .wpcvt-variation-availability {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.wpcvt-variations .wpcvt-variation .wpcvt-variation-info .wpcvt-variation-availability p {
+    margin-bottom: 0;
+}
+
+.wpcvt-variations .wpcvt-variation .wpcvt-variation-info .wpcvt-variation-price {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.wpcvt-variations .wpcvt-variation .wpcvt-variation-info .wpcvt-variation-description {
+    font-size: 14px;
+}
+
+.wpcvt-variations .wpcvt-variation .wpcvt-variation-actions form {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.wpcvt-variations .wpcvt-variation[data-purchasable=no] .wpcvt-quantity {
+    display: none;
+}
+
+.wpcvt-variations .wpcvt-variation[data-images=yes] .wpcvt-variation-image:before {
+    content: "";
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg fill='%23ffffff' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' id='multiple-image'%3E%3Cpath d='M18,15V5a3,3,0,0,0-3-3H5A3,3,0,0,0,2,5V15a3,3,0,0,0,3,3H15A3,3,0,0,0,18,15ZM4,5A1,1,0,0,1,5,4H15a1,1,0,0,1,1,1V9.36L14.92,8.27a2.56,2.56,0,0,0-1.81-.75h0a2.58,2.58,0,0,0-1.81.75l-.91.91-.81-.81a2.93,2.93,0,0,0-4.11,0L4,9.85Zm.12,10.45A.94.94,0,0,1,4,15V12.67L6.88,9.79a.91.91,0,0,1,1.29,0L9,10.6Zm8.6-5.76a.52.52,0,0,1,.39-.17h0a.52.52,0,0,1,.39.17L16,12.18V15a1,1,0,0,1-1,1H6.4ZM21,6a1,1,0,0,0-1,1V17a3,3,0,0,1-3,3H7a1,1,0,0,0,0,2H17a5,5,0,0,0,5-5V7A1,1,0,0,0,21,6Z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.wpcvt-variations .wpcvt-variation[data-atc=no] .wpcvt-variation-actions {
+    display: none;
+}
+
+.wpcvt-variations .wpcvt-variation[data-atc=each] .wpcvt-variation-actions {
+    width: 200px;
+    flex: 0 0 200px;
+}
+
+.wpcvt-wrap .dataTables_length select {
+    min-width: 70px;
+}
+
+.wpcvt-variations-table tr td {
+    vertical-align: middle;
+    border-bottom: 1px dashed #ddd;
+}
+
+.wpcvt-variations-table .wpcvt-variation:hover td {
+    background-color: #f9f9f9;
+}
+
+.wpcvt-variations-table .wpcvt-variation .wpcvt-variation-image {
+    width: 90px;
+}
+
+.wpcvt-variations-table .wpcvt-variation .wpcvt-variation-image img {
+    width: 100%;
+    height: auto;
+}
+
+.wpcvt-actions {
+    margin-top: 10px;
+}
+
+.wpcvt-actions button {
+    margin: 0 !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .wpcvt-variations .wpcvt-variation {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/*# sourceMappingURL=frontend.css.map */
